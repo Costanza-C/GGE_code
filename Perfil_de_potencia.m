@@ -2,8 +2,8 @@ clear; clc;
 figure('Name', 'Perfil de potencia integrado', 'Color', 'w');
 hold on; grid on;
 
-
-% CATEGORÍAS (Eje Y)
+% PERFIL DE POTENCIA
+% CATEGORÍAS (Eje Y) 
 categories = {'Comms (Kir/San/Har)', 'Exp 2 (Mad/Rio/Del)','Eclipses','Control termico, OBDH, ADCS','Exp 3',...
     'Cambio de actitud', 'Seguimiento','Mantenimiento','Exp 4','Exp 1'};
 colors = [
